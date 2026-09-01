@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客汇 on 邱桂生的blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/personal-blog/posts/</link>
     <description>Recent content in 博客汇 on 邱桂生的blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 01 Sep 2026 16:05:05 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/personal-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇文章</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <link>http://localhost:1313/personal-blog/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
       <pubDate>Tue, 01 Sep 2026 16:05:05 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <guid>http://localhost:1313/personal-blog/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>转型学习计划</title>
-      <link>http://localhost:1313/posts/%E4%BC%A0%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%8D%87%E7%BA%A7_%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
+      <link>http://localhost:1313/personal-blog/posts/%E4%BC%A0%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%8D%87%E7%BA%A7_%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
       <pubDate>Tue, 01 Sep 2026 16:05:05 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E4%BC%A0%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%8D%87%E7%BA%A7_%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
+      <guid>http://localhost:1313/personal-blog/posts/%E4%BC%A0%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%8D%87%E7%BA%A7_%E6%AF%8F%E5%91%A8%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
       <description>&lt;h1 id=&#34;传统运维升级--每周细化学习计划&#34;&gt;传统运维升级 · 每周细化学习计划&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;基于你的现状：20年运维经验，精通传统IDC网络架构（SPINE-LEAF/BGP/OSPF）、VMware/PVE虚拟化、Shell脚本、Zabbix监控

@@ -1,7 +1,8 @@
-baseURL: https://yourname.github.io/  # 改成你的域名
+baseURL: https://qiuguisheng.github.io/personal-blog/  # 改成你的域名
 languageCode: zh-cn
 title: 邱桂生的blog
 theme: PaperMod
+defaultContentLanguage: zh
 
 # 启用 emoji 支持
 enableEmoji: true
@@ -55,7 +56,7 @@ params:
   # 社交图标
   socialIcons:
     - name: github
-      url: "https://github.com/yourname"
+      url: "https://qiuguisheng.github.io/personal-blog/"
       title: "访问我的 GitHub"
     - name: email
       url: "mailto:your@email.com"
