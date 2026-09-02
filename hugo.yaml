@@ -25,6 +25,7 @@ params:
   # 基础信息
   author: "qiuguisheng"
   description: "记录、思考、探索"
+  defaultTheme: dark
   
   # 显示设置
   ShowReadingTime: true      # 显示阅读时间
