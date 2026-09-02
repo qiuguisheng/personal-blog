@@ -41,7 +41,7 @@ params:
   #   Title: "欢迎来到我的博客"
   #   Content: "这里是描述文字"
   
- profileMode:
+profileMode:
   enabled: true
   title: "邱桂生 · 基础设施与自动化解决方案"
   subtitle: "20年运维经验 | Python自动化 | 云原生与混合云架构 | 承接技术咨询与项目交付"
