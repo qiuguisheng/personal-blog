@@ -1,48 +1,48 @@
-/* 科技感配色 + 首页背景 */
 :root {
-  --accent: #00e5ff;
-  --accent-glow: rgba(0, 229, 255, 0.35);
-}
-:root[data-theme=dark] {
-  --theme: rgb(10, 12, 20);
-  --entry: rgb(18, 21, 32);
-  --border: rgb(30, 40, 55);
+  --accent: #c9a35a;              /* 商务金色点缀 */
+  --accent-glow: rgba(201,163,90,0.18);
+  --theme: rgb(14, 18, 28);        /* 深蓝黑背景 */
+  --entry: rgb(22, 27, 40);
+  --primary: rgb(225, 230, 238);
+  --secondary: rgb(150, 162, 180);
+  --tertiary: rgb(45, 54, 70);
+  --content: rgb(205, 212, 222);
+  --code-block-bg: rgb(16, 20, 30);
+  --code-bg: rgb(24, 29, 42);
+  --border: rgb(38, 46, 62);
 }
 
-/* 首页科技感网格背景（放在 profile 区域） */
+body { background: var(--theme); }
+
+/* 首页低调网格背景，不再高饱和发光 */
 .profile {
-  background-image:
-    linear-gradient(rgba(0,229,255,0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,229,255,0.06) 1px, transparent 1px);
-  background-size: 32px 32px;
+  background: linear-gradient(180deg, rgba(201,163,90,0.03), transparent);
   border-radius: var(--radius);
 }
-
-/* 头像发光边框 */
 .profile img {
   border: 2px solid var(--accent);
-  box-shadow: 0 0 24px var(--accent-glow);
+  box-shadow: 0 0 10px var(--accent-glow);
+  border-radius: 50%;
 }
 
-/* 链接与标题科技蓝高亮 */
+/* 案例/文章卡片：克制的边框强调，突出专业感 */
+.post-entry { border-left: 3px solid transparent; transition: border-color .2s ease; }
 .post-entry:hover, .post-entry:focus-within {
   border-color: var(--accent) !important;
-  box-shadow: 0 0 16px var(--accent-glow);
-}
-.menu .active, a:hover {
-  color: var(--accent) !important;
+  box-shadow: none;
+  transform: none;
 }
 
-/* 代码块科技感 */
-.md-content pre code {
-  border-left: 3px solid var(--accent);
-}
+.menu .active, a:hover { color: var(--accent) !important; }
+.header-nav { border-bottom: 1px solid var(--border); }
 
-/* 按钮发光 */
+/* CTA 按钮：商务风格实心按钮 */
 .button {
-  border: 1px solid var(--accent);
-  transition: box-shadow .25s ease;
+  background: var(--accent);
+  color: #14161f;
+  border: none;
+  font-weight: 600;
 }
-.button:hover {
-  box-shadow: 0 0 12px var(--accent-glow);
-}
+.button:hover { opacity: 0.88; box-shadow: none; }
+
+.md-content pre code { border-left: 3px solid var(--accent); }
