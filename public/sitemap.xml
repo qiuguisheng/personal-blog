@@ -30,10 +30,14 @@
   </url><url>
     <loc>http://localhost:1313/personal-blog/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/personal-blog/notes/</loc>
+  </url><url>
     <loc>http://localhost:1313/personal-blog/about/about/</loc>
   </url><url>
     <loc>http://localhost:1313/personal-blog/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/personal-blog/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/personal-blog/projects/</loc>
   </url>
 </urlset>

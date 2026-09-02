@@ -1,0 +1,48 @@
+/* 科技感配色 + 首页背景 */
+:root {
+  --accent: #00e5ff;
+  --accent-glow: rgba(0, 229, 255, 0.35);
+}
+:root[data-theme=dark] {
+  --theme: rgb(10, 12, 20);
+  --entry: rgb(18, 21, 32);
+  --border: rgb(30, 40, 55);
+}
+
+/* 首页科技感网格背景（放在 profile 区域） */
+.profile {
+  background-image:
+    linear-gradient(rgba(0,229,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,229,255,0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+  border-radius: var(--radius);
+}
+
+/* 头像发光边框 */
+.profile img {
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+
+/* 链接与标题科技蓝高亮 */
+.post-entry:hover, .post-entry:focus-within {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 16px var(--accent-glow);
+}
+.menu .active, a:hover {
+  color: var(--accent) !important;
+}
+
+/* 代码块科技感 */
+.md-content pre code {
+  border-left: 3px solid var(--accent);
+}
+
+/* 按钮发光 */
+.button {
+  border: 1px solid var(--accent);
+  transition: box-shadow .25s ease;
+}
+.button:hover {
+  box-shadow: 0 0 12px var(--accent-glow);
+}

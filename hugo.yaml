@@ -1,4 +1,4 @@
-baseURL: https://qiuguisheng.github.io/personal-blog/  # 改成你的域名
+baseURL: https://qiuguisheng.github.io/personal-blog/ 
 languageCode: zh-cn
 title: 邱桂生的blog
 theme: PaperMod
@@ -23,8 +23,8 @@ languages:
 # PaperMod 主题配置
 params:
   # 基础信息
-  author: "你的名字"
-  description: "你的网站描述"
+  author: "qiuguisheng"
+  description: "记录、思考、探索"
   
   # 显示设置
   ShowReadingTime: true      # 显示阅读时间
@@ -59,7 +59,7 @@ params:
       url: "https://qiuguisheng.github.io/personal-blog/"
       title: "访问我的 GitHub"
     - name: email
-      url: "mailto:your@email.com"
+      url: "qiu_g_s@163.com"
       title: "发送邮件给我"
 
 # 菜单配置
@@ -73,9 +73,9 @@ menu:
       name: 笔记
       url: /notes/
       weight: 20
-    - identifier: photography
+    - identifier: projects
       name: 项目
-      url: /photography/
+      url: /projects/
       weight: 30
     - identifier: about
       name: 关于
