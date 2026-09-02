@@ -45,14 +45,14 @@ params:
     enabled: true
     title: "My Wilderness"    # 主标题
     subtitle: "记录、思考、探索"
-    imageUrl: "/images/avatar.jpg"  # 头像路径
+    imageUrl: "images/avatar.jpg"  # 头像路径
     imageWidth: 120
     imageHeight: 120
     buttons:
       - name: 旷野
-        url: /posts/
+        url: posts/
       - name: 关于
-        url: /about/
+        url: about/
   
   # 社交图标
   socialIcons:
