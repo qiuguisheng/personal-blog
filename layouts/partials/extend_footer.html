@@ -1,0 +1,12 @@
+{{ if eq .Kind "home" }}
+<div class="tags-cloud" style="max-width:calc(var(--main-width) + var(--gap) * 2);margin:0 auto;padding:0 var(--gap) var(--gap);text-align:center;">
+  {{ range site.Taxonomies.tags.ByCount }}
+    <a href="{{ .Page.Permalink }}"
+       style="display:inline-block;margin:4px 6px;padding:3px 10px;border-radius:20px;
+              border:1px solid var(--accent, #00e5ff);color:var(--accent, #00e5ff);
+              font-size:{{ add 12 (mul .Count 2) }}px;text-decoration:none;">
+      {{ .Page.Title }} ({{ .Count }})
+    </a>
+  {{ end }}
+</div>
+{{ end }}
