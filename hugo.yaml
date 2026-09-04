@@ -56,7 +56,7 @@ profileMode:
   # 社交图标
   socialIcons:
     - name: github
-      url: "https://qiuguisheng.github.io/personal-blog/"
+      url: "https://qiuguisheng.bbroot.com"
       title: "访问我的 GitHub"
     - name: email
       url: "qiu_g_s@163.com"
